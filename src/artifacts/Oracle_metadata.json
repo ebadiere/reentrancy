@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_seed",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_seed",
+						"type": "uint8"
+					}
+				],
+				"name": "changeSeed",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getRandomNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"author": "Sparx - https://github.com/letsgitcracking",
+			"kind": "dev",
+			"methods": {},
+			"title": "Oracle for Lottery Game",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "WARNING - NEVER USE IN PRODUCTION - FOR EDUCATIONAL PURPOSES ONLY!",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"src/Oracle.sol": "Oracle"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"src/Oracle.sol": {
+			"keccak256": "0x3033ad34c02c79e5bebb3c862bf3f980a6d34a9608f4ecd725c8bd2c118f22c1",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://990b7bbcb17c8b46112f043f616aa1c2f656cb8f28072bc69591fcee8cdc7ad3",
+				"dweb:/ipfs/QmXcM6FpGbiwHRS6vyMqk4vGqhgqwc6n6VYtbPHYuLXiMx"
+			]
+		}
+	},
+	"version": 1
+}
